@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-pink-100 h-full pt-24 pl-64">
-    <HomePage msg="Welcome to Your Vue.js App"/>
+  <div class="">
+    <HomePage />
   </div>
 </template>
 
@@ -14,4 +14,11 @@ export default {
   }
 }
 </script>
+
+<style>
+body {
+  background-image: linear-gradient(to right, rgba(248, 211, 211, 0), rgb(240, 226, 226));
+  height: 100vh;
+}
+</style>
 
